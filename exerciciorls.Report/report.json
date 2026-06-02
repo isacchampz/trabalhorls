@@ -1,0 +1,60 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.57\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "39767432b38086dab16a",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"630373d7c15bee99d0aa\",\"layouts\":[{\"id\":0,\"position\":{\"x\":289.84802431610944,\"y\":0,\"z\":2000,\"width\":280.1215805471125,\"height\":280.1215805471125,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"amostra_bolsa.UF\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(amostra_bolsa.VALOR PARCELA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_bolsa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"UF\"},\"Name\":\"amostra_bolsa.UF\",\"NativeReferenceName\":\"UF\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"VALOR PARCELA\"}},\"Function\":0},\"Name\":\"Sum(amostra_bolsa.VALOR PARCELA)\",\"NativeReferenceName\":\"Soma de VALOR PARCELA\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"VALOR PARCELA\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.12,
+          "width": 280.12,
+          "x": 289.85,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"6a6d815ab4b80d0c3665\",\"layouts\":[{\"id\":0,\"position\":{\"x\":569.9696048632219,\"y\":0,\"z\":3000,\"width\":280.1215805471125,\"height\":280.1215805471125,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"amostra_bolsa.UF\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(amostra_bolsa.MÊS COMPETÊNCIA)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_bolsa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"UF\"},\"Name\":\"amostra_bolsa.UF\",\"NativeReferenceName\":\"UF\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"MÊS COMPETÊNCIA\"}},\"Function\":0},\"Name\":\"Sum(amostra_bolsa.MÊS COMPETÊNCIA)\",\"NativeReferenceName\":\"Soma de MÊS COMPETÊNCIA\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"MÊS COMPETÊNCIA\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.12,
+          "width": 280.12,
+          "x": 569.97,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"7426658a2d409b1a9911\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"amostra_bolsa.UF\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(amostra_bolsa.NIS FAVORECIDO)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"amostra_bolsa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"UF\"},\"Name\":\"amostra_bolsa.UF\",\"NativeReferenceName\":\"UF\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NIS FAVORECIDO\"}},\"Function\":0},\"Name\":\"Sum(amostra_bolsa.NIS FAVORECIDO)\",\"NativeReferenceName\":\"Soma de NIS FAVORECIDO\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NIS FAVORECIDO\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
