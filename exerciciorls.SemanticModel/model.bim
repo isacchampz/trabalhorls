@@ -55,7 +55,7 @@
     ],
     "roles": [
       {
-        "name": "Sem título",
+        "name": "Gerente_Municipal_RJ-Osasco",
         "annotations": [
           {
             "name": "PBI_Id",
@@ -66,7 +66,55 @@
         "tablePermissions": [
           {
             "name": "amostra_bolsa",
-            "filterExpression": "[UF] IN {\"AC\",\"AM\",\"AP\",\"PA\",\"RO\",\"RR\",\"TO\"}"
+            "filterExpression": "[UF] IN {\"RJ\"} && [NOME MUNICÍPIO] == \"Osasco\""
+          }
+        ]
+      },
+      {
+        "name": "Gerente_DF",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "7347492a103a449fbd2caa79cd303405"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "amostra_bolsa",
+            "filterExpression": "[UF] == \"DF\""
+          }
+        ]
+      },
+      {
+        "name": "Gerente_Municipal_SP-Campinas",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "ec0d35b04fe6453c968a25b48e11750f"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "amostra_bolsa",
+            "filterExpression": "[UF] == \"SP\" && [NOME MUNICÍPIO] == \"Campinas\""
+          }
+        ]
+      },
+      {
+        "name": "Gerente_MG",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "259ebc36a7894cb4a5547936fb473aea"
+          }
+        ],
+        "modelPermission": "read",
+        "tablePermissions": [
+          {
+            "name": "amostra_bolsa",
+            "filterExpression": "[UF] == \"MG\""
           }
         ]
       }
